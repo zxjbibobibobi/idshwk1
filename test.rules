@@ -1,0 +1,1 @@
+alert tcp any any -> any 8080 (msg:"TEST ALERT";flags:ACK;content:"GG assignment1";offset:100;depth:200;)
